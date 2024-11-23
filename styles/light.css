@@ -54,6 +54,6 @@
   }
 
  .theme_light .header__decorated-text {
-  display: none;
-}
+    display: none;
+  }
 }
