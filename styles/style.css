@@ -155,13 +155,13 @@
 
   .header__title {
     font-size: var(--font-size-main-title-tablet);
-   margin-inline-start: -20px;
+    margin-inline-start: -20px;
   }
 
   .header__subtitle { 
-  align-self: center;
-  justify-self: end; 
-  inline-size: 50%;
+    align-self: center;
+    justify-self: end; 
+    inline-size: 50%;
   }
 }
 
@@ -318,7 +318,7 @@
   block-size: 237px;
 }
 
-.picture__books{
+.picture__books {
   inline-size: 355px;
   block-size: 355px;
 }
