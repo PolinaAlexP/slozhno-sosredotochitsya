@@ -12,8 +12,8 @@
   --secondary-color: #ff0070;
   --paragraph-color: #f1b2ce;
   --title-text-color: #000028;
-  --hover-color: #ff99c6; 
-  --font-family: 'IBM Plex mono', sans-serif;
+  --hover-color: rgb(255, 153, 198);
+  --font-family: 'IBM Plex mono', 'monospace', sans-serif;
   --font-bold: 700;
   --font-regular: 400;
   --font-size-text: 18px;

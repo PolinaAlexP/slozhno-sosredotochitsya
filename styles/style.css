@@ -97,14 +97,10 @@
 .header__theme-menu-button_active {
   pointer-events: none;
   border: 1px solid var(--secondary-color);
-  inline-size: 70px;
-  block-size: 26px; 
 }
 
 .header__theme-menu-button:hover {
   border: 1px solid var(--hover-color);
-  inline-size: 70px;
-  block-size: 26px;
 }
 
 .header__theme-menu-button:focus {
@@ -112,7 +108,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--secondary-color);
+  border-block-end: 1px solid currentColor;
   padding-block-end: 3px; 
 }
 
@@ -166,10 +162,6 @@
 }
 
 @media (min-width: 1024px) {
-  .page {
-    background-image: var(--bg-image-desktop);
-  }
-
   .header {
     min-block-size: 768px;
   }
@@ -206,7 +198,7 @@
   margin-top: 0;
 }
 
-.content__article__first__class {
+.content__article__type__default {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -222,18 +214,13 @@
   gap: 20px;
 }
 
-.content__article__second__class {
+.content__article__type__additional {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
 
 .content__article__advice {
-  display: grid;
-  gap: 20px;
-}
-
-.card__advice {
   display: grid;
   gap: 20px;
 }
@@ -303,33 +290,8 @@
   object-fit: cover;
 }
 
-.picture__sunset {
-  inline-size: 355px;
-  block-size: 142px;
-}
-
-.picture__ice-cream {
-  inline-size: 355px;
-  block-size: 355px;
-}
-
-.picture__tape {
-  inline-size: 355px;
-  block-size: 237px;
-}
-
-.picture__books {
-  inline-size: 355px;
-  block-size: 355px;
-}
-
-.picture__street {
-  inline-size: 355px;
-  block-size: 237px;
-}
-
 @media (min-width: 768px) {
-  .content__article__first__class {
+  .content__article__type__default {
     grid-template-columns: 1fr 2fr;
   }
 
@@ -348,41 +310,31 @@
   
  .picture__sunset {
     grid-column: span 2;
-    inline-size: 479px;
-    block-size: 192px;
   }
   
   .picture__ice-cream {
     grid-row: span 2;
-    inline-size: 229px;
-    block-size: 441px;
   }
   
   .picture__tape {
     grid-row: span 2;
-    inline-size: 229px;
-    block-size: 568px;
   }
   
   .picture__books {
     grid-row: span 1;
-    inline-size: 230px;
-    block-size: 230px;
   }
   
   .picture__street {
     grid-column: span 2; 
-    inline-size: 479px;
-    block-size: 318px;
   }
 }
 
 @media (min-width: 1024px) {
-  .content__article__first__class {
+  .content__article__type__default {
     grid-template-columns: 315px auto;
   }
 
-  .content__article__second__class {
+  .content__article__type__additional {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -396,31 +348,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column: 1/4;
     gap: 20px;
-  }
-
-  .picture__sunset {
-    inline-size: 649px;
-    block-size: 260px;
-  }
-  
-  .picture__ice-cream {
-    inline-size: 315px;
-    block-size: 595px;
-  }
-  
-  .picture__tape {
-    inline-size: 315px;
-    block-size: 768px;
-  }
-  
-  .picture__books {
-    inline-size: 315px;
-    block-size: 315px;
-  }
-  
-  .picture__street {
-    inline-size: 649px;
-    block-size: 428px;
   }
 }
 
