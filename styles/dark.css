@@ -18,10 +18,10 @@
   --secondary-color: #ff0070;
   --paragraph-color: #f1b2ce;
   --title-text-color: #000028;
-  --hover-color: rgb(255, 153, 198);
+  --hover-color: rgb(255 0 112/ 40%);
 }
-
 
 .theme_dark .header__decorated-text {
   display: block;
 } 
+

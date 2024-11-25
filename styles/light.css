@@ -18,11 +18,7 @@
   --shadow-main-title-desktop: #ff0070;
   --title-text-color: #353430;
   --paragraph-color: #353430;
-  --hover-color: #adadab;
-}
-
-.header__decorated-text {
-  display: none;
+  --hover-color: #adadab; 
 }
 
 .theme_light .header__decorated-text {
